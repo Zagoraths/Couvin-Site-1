@@ -1,0 +1,31 @@
+/* changer l'arriere plan de la section classe bp1 et mettre des espacements de la marge*/
+.bp1 {
+    background-color: red;
+    padding: 0 10px 5px 10px;
+} 
+/* Mettre une bordure au dessus*/
+section {
+    border-top: 3px solid black;
+    
+}
+/* changer la couleur, le style de la police d'écriture et changer la couleur de l'arrière plan*/
+body {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    background-color: aquamarine;
+}
+/* changer la couleur des balises spécifiques*/
+h2,
+strong,
+em{
+    color: blue;
+}
+/* changer la police d'écriture et aligner le texte à droite*/
+.signature{
+        font-family: "Roboto", sans-serif;
+        text-align: right;
+}
+/* cacher le texte attribué a la classe hidden*/
+.hidden{
+    display: none;
+}
