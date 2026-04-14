@@ -1,0 +1,11 @@
+Localiser le bus en temps réel
+Mise à jour des horaires en temps réel (Retard/Annulé/Passer/Avance) 
+Planifier un trajet (localisation en temps réel (chemin se met à jour pendant déplacement))
+information par les passagers du véhicule en question (vide/remplit/retard)
+Notification de mise à jour - Alerte quand nouvelle étape du trajet planifié
+Comparaison avec d'autre trajet possible (Avec temps et différent moyen de transport "bus/train/métro")
+lien vers les sites des véhicules en question. pour achat tickets/abonnement.
+link avec comptes sncb - tec - carte mobib
+localisation du bus en route sur le trajet en temps réel via GPS
+Indication si travaux, pertubation ou détournement sur le trajet original
+estimation du temps de trajet 
