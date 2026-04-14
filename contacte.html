@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="texte.css" />
     <title>Site 1 - Contactez-nous !</title>
   </head>
+
   <body>
     <header>
       <h1>Hello Couvin</h1>
@@ -26,6 +27,41 @@
         <h2>Contactez-nous !</h2>
         <div class="colonnes">
           <div class="colonne">Formulaire</div>
+          <h3>Par email</h3>
+          <form>
+            <div class="control">
+              <label for="lastname">Nom</label>
+              <input type="text" id="lastname" required />*
+            </div>
+            <div class="control">
+              <label for="firstname">Prénom</label>
+              <input type="text" id="firstname" />
+            </div>
+            <div class="control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                required
+                id="email"
+                placeholder="user@site.com"
+              />*
+            </div>
+            <div class="control">
+              <label for="profil">Profil</label>
+              <select name="" id="profil">
+                <option value="DE">Demandeur d'emploi</option>
+                <option value="TRAV">Travailleur</option>
+              </select>
+            </div>
+            <div class="control">
+              <label for="message">Message</label>
+              <textarea name="" id="message"></textarea>*
+            </div>
+            <div class="control">
+              <label for=""></label>
+              <button>Envoyer</button>
+            </div>
+          </form>
           <div class="colonne">
             <iframe
               width="425"
